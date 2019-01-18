@@ -1,0 +1,13 @@
+<h4>Array of Object </h4>
+{{#each model as |data|}}
+X : {{data.x}}
+Y : {{data.y}}
+<br> Sum : {{data.sum}}
+
+<br>
+<br>
+{{/each}}
+<button {{action 'change'}}>Button </button>
+{{outlet}}
+
+{{outlet}}
